@@ -145,4 +145,110 @@
       </div>
 
     </section><!-- /About Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>Our live chat solution is packed with customizable features to make your event interactive, engaging, and unforgettable.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Powerful Features to Elevate Your Event Experience</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> 
+                    <span>Real-Time Live Chat Display</span>
+                    <p class="fst-italic">
+                      Display messages instantly on videotron, projector, or big screens during your event.
+                    </p>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> 
+                    <span>Customizable Chat Bubble Design</span>
+                    <p class="fst-italic">
+                      Change bubble colors, text size, and background to match your event's theme.
+                    </p>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> 
+                    <span>Secure and Moderated Chat</span>
+                    <p class="fst-italic">
+                      Track IP addresses and emails of message senders to ensure a safe and controlled environment.
+                    </p>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> 
+                    <span>File Attachments</span>
+                    <p class="fst-italic">
+                      Allow guests to upload images during the event for a more interactive experience.
+                    </p>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> 
+                    <span>Animation and Visual Effects</span>
+                    <p class="fst-italic">
+                      Add animations to chat bubbles to make the display more lively and engaging.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="{{ asset('templates/assets/img/features-illustration-1.webp') }}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+    
+    <!-- Features Cards Section -->
+    <section id="features-cards" class="features-cards section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-box orange">
+              <i class="bi bi-chat-dots-fill"></i>
+              <h4>Real-Time Messaging</h4>
+              <p>Instantly display guest messages on screens to keep the audience engaged.</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-box blue">
+              <i class="bi bi-palette-fill"></i>
+              <h4>Customizable Design</h4>
+              <p>Change bubble colors, background, and fonts to fit your event's theme.</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box green">
+              <i class="bi bi-lock-fill"></i>
+              <h4>Secure & Moderated</h4>
+              <p>Track IP addresses and emails to ensure safe and controlled chat sessions.</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="feature-box red">
+              <i class="bi bi-folder-fill"></i>
+              <h4>File Attachments</h4>
+              <p>Allow attendees to share images and files during the event.</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Cards Section -->
 @endsection
