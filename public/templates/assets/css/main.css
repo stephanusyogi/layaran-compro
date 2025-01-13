@@ -1376,8 +1376,32 @@ section,
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
+.call-to-action {
+  position: relative;
+  height: 400px;
+  background-image: url('../../../assets/images/IMG_2066.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity level */
+  z-index: 1;
+}
+
 .call-to-action .container {
-  background: var(--accent-color);
+  position: relative;
+  z-index: 2;
   color: var(--contrast-color);
   position: relative;
   overflow: hidden;
