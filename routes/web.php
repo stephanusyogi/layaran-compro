@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PageController::class, 'index']);
+
+Route::get('change-language/{lang}', function ($lang) {
+    if (in_array($lang, ['en', 'id'])) {
+        session(['app_locale' => $lang]);
+        App::setLocale($lang);
+    }
+    return redirect()->back();
+});

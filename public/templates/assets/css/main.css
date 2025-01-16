@@ -1910,6 +1910,15 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
+
+/*--------------------------------------------------------------
+# Table Pricing Section
+--------------------------------------------------------------*/
+.table-pricing .company-badge{
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
 /*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/

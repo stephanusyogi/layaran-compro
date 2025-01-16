@@ -18,5 +18,4 @@
 
 <!-- Main JS File -->
 <script src="{{ asset('templates/assets/js/main.js') }}"></script>
-
 @stack('script')
